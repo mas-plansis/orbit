@@ -1,15 +1,14 @@
-# Файлы страницы продукта.
+# В публичном репозитории остаются только страница продукта, актуальный
+# установщик и служебный manifest обновлений.
 *
 !.gitignore
 !README.md
 !INSTALL.md
 !assets/
-!assets/orbit-logo.svg
-!assets/orbit-route-ordinary.png
-!assets/orbit-route-chain.png
-!assets/orbit-route-rules.png
-!assets/orbit-communications.png
-!assets/orbit-overview-main.png
-!assets/orbit-overview-load.png
-!assets/orbit-overview-proxy.png
-!assets/orbit-overview-storage.png
+!assets/**
+!channels/
+!channels/**
+!install/
+!install/README.md
+!install/SHA256SUMS
+!install/orbit-install.tar.gz
