@@ -1,27 +1,31 @@
 {
   "schema_version": 1,
-  "version": "1.0.2",
-  "tag": "v1.0.2",
+  "version": "1.0.3",
+  "tag": "v1.0.3",
   "channel": "stable",
-  "released_at": "2026-10-29T09:42:50Z",
-  "changelog": "Повышена стабильность подключения при разных настройках сети.\nУлучшена работа со списком серверов.\nУпрощена первичная установка Orbit.",
+  "released_at": "2026-10-29T11:49:17Z",
+  "changelog": "Повышена стабильность открытия сайтов при нестабильной работе DNS.\nУлучшено отображение обновлений и состояния накопителя.\nИсправлены ошибки интерфейса.",
   "artifacts": [
     {
       "architecture": "arm64",
       "file": "orbit-aarch64",
-      "url": "https://github.com/mas-plansis/orbit/releases/download/v1.0.2/orbit-aarch64",
-      "sha256": "8040fe2385f54b37297379dc993c44a7b23a355568171dc268a08123268baca9",
-      "size": 37221788
+      "url": "https://github.com/mas-plansis/orbit/releases/download/v1.0.3/orbit-aarch64",
+      "sha256": "7b39e047ad7cbe3d48aa107c6b74b3956703863ee5de4c06528f9116b765420f",
+      "size": 37156252
     },
     {
       "architecture": "mipsel",
       "file": "orbit-mipsel",
-      "url": "https://github.com/mas-plansis/orbit/releases/download/v1.0.2/orbit-mipsel",
-      "sha256": "b81c523a1a56bbe09fe46defa544b1e59114f8bf4717a423b52ceb8f904753a8",
-      "size": 40552544
+      "url": "https://github.com/mas-plansis/orbit/releases/download/v1.0.3/orbit-mipsel",
+      "sha256": "aa33f0b2b2dd6e9bed3afb35ea67148d8471ac7365b973c3f31cc3a32efa86cc",
+      "size": 40093792
     }
   ],
   "history": [
+    {
+      "version": "1.0.3",
+      "changelog": "Повышена стабильность открытия сайтов при нестабильной работе DNS.\nУлучшено отображение обновлений и состояния накопителя.\nИсправлены ошибки интерфейса."
+    },
     {
       "version": "1.0.2",
       "changelog": "Повышена стабильность подключения при разных настройках сети.\nУлучшена работа со списком серверов.\nУпрощена первичная установка Orbit."
