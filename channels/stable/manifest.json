@@ -1,27 +1,31 @@
 {
   "schema_version": 1,
-  "version": "1.0.3",
-  "tag": "v1.0.3",
+  "version": "1.0.4",
+  "tag": "v1.0.4",
   "channel": "stable",
-  "released_at": "2026-10-29T11:49:17Z",
-  "changelog": "Повышена стабильность открытия сайтов при нестабильной работе DNS.\nУлучшено отображение обновлений и состояния накопителя.\nИсправлены ошибки интерфейса.",
+  "released_at": "2026-10-30T00:05:52Z",
+  "changelog": "Добавлено приложение Orbit Connect для macOS и связь с устройствами.\nУлучшено управление устройствами и отображение их состояния.\nПовышена стабильность подключений и интерфейса.",
   "artifacts": [
     {
       "architecture": "arm64",
       "file": "orbit-aarch64",
-      "url": "https://github.com/mas-plansis/orbit/releases/download/v1.0.3/orbit-aarch64",
-      "sha256": "7b39e047ad7cbe3d48aa107c6b74b3956703863ee5de4c06528f9116b765420f",
-      "size": 37156252
+      "url": "https://github.com/mas-plansis/orbit/releases/download/v1.0.4/orbit-aarch64",
+      "sha256": "eaacc1642bbb7e290f27f5b871b4fb5f5915a12923140225e658623f5eed01bf",
+      "size": 37352860
     },
     {
       "architecture": "mipsel",
       "file": "orbit-mipsel",
-      "url": "https://github.com/mas-plansis/orbit/releases/download/v1.0.3/orbit-mipsel",
-      "sha256": "aa33f0b2b2dd6e9bed3afb35ea67148d8471ac7365b973c3f31cc3a32efa86cc",
-      "size": 40093792
+      "url": "https://github.com/mas-plansis/orbit/releases/download/v1.0.4/orbit-mipsel",
+      "sha256": "3e7f693ad300ff9699c86b731ae6664b9701c1f9dcd7f45504cc20e795269b6e",
+      "size": 40749152
     }
   ],
   "history": [
+    {
+      "version": "1.0.4",
+      "changelog": "Добавлено приложение Orbit Connect для macOS и связь с устройствами.\nУлучшено управление устройствами и отображение их состояния.\nПовышена стабильность подключений и интерфейса."
+    },
     {
       "version": "1.0.3",
       "changelog": "Повышена стабильность открытия сайтов при нестабильной работе DNS.\nУлучшено отображение обновлений и состояния накопителя.\nИсправлены ошибки интерфейса."
