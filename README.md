@@ -1,8 +1,5 @@
 # Orbit Connect для macOS
 
-В этой ветке находится актуальная версия Orbit Connect для macOS.
+Приложение в строке меню показывает состояние подключения, конечный адрес и маршрут устройства.
 
-Готовое приложение и контрольная сумма находятся в папке [`install`](install/).
-История выпусков доступна в [GitHub Releases](https://github.com/mas-plansis/orbit/releases).
-
-Текущая версия: 0.1.10
+[Скачать и установить](install/) · [История выпусков](https://github.com/mas-plansis/orbit/releases)
