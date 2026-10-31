@@ -1,27 +1,31 @@
 {
   "schema_version": 1,
-  "version": "1.0.7",
-  "tag": "v1.0.7",
+  "version": "1.0.8",
+  "tag": "v1.0.8",
   "channel": "stable",
-  "released_at": "2026-10-31T06:45:26Z",
-  "changelog": "Улучшен раздел приложений для macOS и Linux.\nУпрощены установка Orbit Connect и связь с устройствами.\nИсправлены ошибки интерфейса и повышена стабильность обновлений.",
+  "released_at": "2026-10-31T09:34:36Z",
+  "changelog": "Установка стала надёжнее и заранее проверяет совместимость системы и доступное место.\nПовышена устойчивость подключения при изменениях сетевого режима Keenetic.\nИсправлены ошибки и улучшена стабильность работы Orbit.",
   "artifacts": [
     {
       "architecture": "arm64",
       "file": "orbit-aarch64",
-      "url": "https://github.com/mas-plansis/orbit/releases/download/v1.0.7/orbit-aarch64",
-      "sha256": "5944b25b7e72f518229d9c0e8af6a3c30f7f6b4f3778ec38009a5ccf98f67122",
-      "size": 37942684
+      "url": "https://github.com/mas-plansis/orbit/releases/download/v1.0.8/orbit-aarch64",
+      "sha256": "f41bae72764b4cbf89ba2138d0142f4400d37da6922e5207e8bd9f036a242db5",
+      "size": 37811612
     },
     {
       "architecture": "mipsel",
       "file": "orbit-mipsel",
-      "url": "https://github.com/mas-plansis/orbit/releases/download/v1.0.7/orbit-mipsel",
-      "sha256": "de87730978645a51b1f43d745aea604446a51b56cf2a795688ffc6e9ba57774f",
-      "size": 40618080
+      "url": "https://github.com/mas-plansis/orbit/releases/download/v1.0.8/orbit-mipsel",
+      "sha256": "a17c148998ee8f1eefb9e1690a143bc9c2a7f5e4bd2e3128acc3133e01f52370",
+      "size": 41011296
     }
   ],
   "history": [
+    {
+      "version": "1.0.8",
+      "changelog": "Установка стала надёжнее и заранее проверяет совместимость системы и доступное место.\nПовышена устойчивость подключения при изменениях сетевого режима Keenetic.\nИсправлены ошибки и улучшена стабильность работы Orbit."
+    },
     {
       "version": "1.0.7",
       "changelog": "Улучшен раздел приложений для macOS и Linux.\nУпрощены установка Orbit Connect и связь с устройствами.\nИсправлены ошибки интерфейса и повышена стабильность обновлений."
@@ -37,10 +41,6 @@
     {
       "version": "1.0.4",
       "changelog": "Добавлено приложение Orbit Connect для macOS и связь с устройствами.\nУлучшено управление устройствами и отображение их состояния.\nПовышена стабильность подключений и интерфейса."
-    },
-    {
-      "version": "1.0.3",
-      "changelog": "Повышена стабильность открытия сайтов при нестабильной работе DNS.\nУлучшено отображение обновлений и состояния накопителя.\nИсправлены ошибки интерфейса."
     }
   ]
 }
