@@ -1,27 +1,31 @@
 {
   "schema_version": 1,
-  "version": "1.0.14",
-  "tag": "v1.0.14",
+  "version": "1.0.15",
+  "tag": "v1.0.15",
   "channel": "stable",
-  "released_at": "2026-11-03T10:58:23Z",
-  "changelog": "Улучшены обновление и восстановление Orbit.\nДобавлено управление участием серверов в Автопилоте.\nУлучшен интерфейс и исправлены ошибки отображения.",
+  "released_at": "2026-11-03T15:50:00Z",
+  "changelog": "Повышена надёжность обновления и восстановления Orbit.\nХод обновления и состояние подключения стали понятнее.",
   "artifacts": [
     {
       "architecture": "arm64",
       "file": "orbit-aarch64",
-      "url": "https://github.com/mas-plansis/orbit/releases/download/v1.0.14/orbit-aarch64",
-      "sha256": "04c586ebb677a70b28c760ffa83a8916dac40327557f11a4b6b8d3a85d4a8cb1",
-      "size": 41219484
+      "url": "https://github.com/mas-plansis/orbit/releases/download/v1.0.15/orbit-aarch64",
+      "sha256": "946a1aae6bf80ed24f83fe538815d59524b6f139450581c8458bba4688901eaf",
+      "size": 41547164
     },
     {
       "architecture": "mipsel",
       "file": "orbit-mipsel",
-      "url": "https://github.com/mas-plansis/orbit/releases/download/v1.0.14/orbit-mipsel",
-      "sha256": "f00575a0515e76bc2d63f7127df018cd581b178d8f6ceabf32f6bf017ca3cb62",
-      "size": 45271136
+      "url": "https://github.com/mas-plansis/orbit/releases/download/v1.0.15/orbit-mipsel",
+      "sha256": "6cf076728cd5c53a1cac4122102c6e331b6bca36dc571b7cb985672f9251ba93",
+      "size": 44943456
     }
   ],
   "history": [
+    {
+      "version": "1.0.15",
+      "changelog": "Повышена надёжность обновления и восстановления Orbit.\nХод обновления и состояние подключения стали понятнее."
+    },
     {
       "version": "1.0.14",
       "changelog": "Улучшены обновление и восстановление Orbit.\nДобавлено управление участием серверов в Автопилоте.\nУлучшен интерфейс и исправлены ошибки отображения."
@@ -37,10 +41,6 @@
     {
       "version": "1.0.11",
       "changelog": "Добавлена фильтрация рекламы для отдельных устройств.\nДобавлена защита подключения при недоступном обязательном выходе.\nУлучшены ручная установка обновлений и отображение состояния системы.\nИсправлены ошибки и повышена стабильность запуска и обновления."
-    },
-    {
-      "version": "1.0.10",
-      "changelog": "Повышена надёжность обновления и восстановления Orbit.\nУлучшена совместимость настроек предыдущих версий.\nИсправлены ошибки и повышена стабильность работы."
     }
   ]
 }
