@@ -1,27 +1,31 @@
 {
   "schema_version": 1,
-  "version": "1.0.20",
-  "tag": "v1.0.20",
+  "version": "1.0.21",
+  "tag": "v1.0.21",
   "channel": "stable",
-  "released_at": "2026-11-06T11:27:54Z",
-  "changelog": "Исправлена подготовка выпусков Orbit Connect для macOS и Linux.",
+  "released_at": "2026-11-06T13:21:59Z",
+  "changelog": "Исправлено обновление Orbit с сохранением остановленного состояния подключения.\nНазначение статического выхода больше не включает его до явного действия пользователя.\nПри включении статического выхода Orbit автоматически подбирает рабочий основной сервер.\nСнижена фоновая нагрузка после завершения обновления.",
   "artifacts": [
     {
       "architecture": "arm64",
       "file": "orbit-aarch64",
-      "url": "https://github.com/mas-plansis/orbit/releases/download/v1.0.20/orbit-aarch64",
-      "sha256": "cc0a18e491584970b1df6415de650effdcbef71a33932b2188ddb627f8d31fa6",
-      "size": 41547164
+      "url": "https://github.com/mas-plansis/orbit/releases/download/v1.0.21/orbit-aarch64",
+      "sha256": "30a614f985fc4b72b7731454c58236913205d4df58c5c66794c2bee34cdc92e5",
+      "size": 41809308
     },
     {
       "architecture": "mipsel",
       "file": "orbit-mipsel",
-      "url": "https://github.com/mas-plansis/orbit/releases/download/v1.0.20/orbit-mipsel",
-      "sha256": "2930973165f98513c67a95332f4f9e58a3a2c90abd4833ba0e7379da9150a86c",
-      "size": 45205600
+      "url": "https://github.com/mas-plansis/orbit/releases/download/v1.0.21/orbit-mipsel",
+      "sha256": "6c0354d8abc9636b8e6a0a6e4ea33b6fb6b214213f1a01d9f203ffffb4e4b27e",
+      "size": 45664352
     }
   ],
   "history": [
+    {
+      "version": "1.0.21",
+      "changelog": "Исправлено обновление Orbit с сохранением остановленного состояния подключения.\nНазначение статического выхода больше не включает его до явного действия пользователя.\nПри включении статического выхода Orbit автоматически подбирает рабочий основной сервер.\nСнижена фоновая нагрузка после завершения обновления."
+    },
     {
       "version": "1.0.20",
       "changelog": "Исправлена подготовка выпусков Orbit Connect для macOS и Linux."
@@ -37,10 +41,6 @@
     {
       "version": "1.0.17",
       "changelog": "Улучшено обновление с предыдущих версий с сохранением настроек.\nИсправлены ошибки запуска и восстановления после обновления."
-    },
-    {
-      "version": "1.0.16",
-      "changelog": "Улучшен переход с предыдущих версий с сохранением настроек.\nПовышена надёжность запуска и восстановления после обновления."
     }
   ]
 }
