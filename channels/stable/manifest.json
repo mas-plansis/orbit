@@ -1,27 +1,31 @@
 {
   "schema_version": 1,
-  "version": "1.0.19",
-  "tag": "v1.0.19",
+  "version": "1.0.20",
+  "tag": "v1.0.20",
   "channel": "stable",
-  "released_at": "2026-11-06T10:51:04Z",
-  "changelog": "Повышена надёжность выбора и смены основных серверов и цепочек.\nНазначения серверов и маршрут устойчивее восстанавливаются после временных сбоев.\nСнижена нагрузка при проверке и применении серверов.\nУлучшена адаптация интерфейса на узких и средних экранах.",
+  "released_at": "2026-11-06T11:27:54Z",
+  "changelog": "Исправлена подготовка выпусков Orbit Connect для macOS и Linux.",
   "artifacts": [
     {
       "architecture": "arm64",
       "file": "orbit-aarch64",
-      "url": "https://github.com/mas-plansis/orbit/releases/download/v1.0.19/orbit-aarch64",
-      "sha256": "4b2838f4917e55510957c16a5afe91d681488826f7a8959ef46f8bf644696bd3",
-      "size": 41678236
+      "url": "https://github.com/mas-plansis/orbit/releases/download/v1.0.20/orbit-aarch64",
+      "sha256": "cc0a18e491584970b1df6415de650effdcbef71a33932b2188ddb627f8d31fa6",
+      "size": 41547164
     },
     {
       "architecture": "mipsel",
       "file": "orbit-mipsel",
-      "url": "https://github.com/mas-plansis/orbit/releases/download/v1.0.19/orbit-mipsel",
-      "sha256": "877c7ae57420648fc1001df7200527e6d5fd52b1ccaec00af92e6dc72db2787c",
-      "size": 45533280
+      "url": "https://github.com/mas-plansis/orbit/releases/download/v1.0.20/orbit-mipsel",
+      "sha256": "2930973165f98513c67a95332f4f9e58a3a2c90abd4833ba0e7379da9150a86c",
+      "size": 45205600
     }
   ],
   "history": [
+    {
+      "version": "1.0.20",
+      "changelog": "Исправлена подготовка выпусков Orbit Connect для macOS и Linux."
+    },
     {
       "version": "1.0.19",
       "changelog": "Повышена надёжность выбора и смены основных серверов и цепочек.\nНазначения серверов и маршрут устойчивее восстанавливаются после временных сбоев.\nСнижена нагрузка при проверке и применении серверов.\nУлучшена адаптация интерфейса на узких и средних экранах."
@@ -37,10 +41,6 @@
     {
       "version": "1.0.16",
       "changelog": "Улучшен переход с предыдущих версий с сохранением настроек.\nПовышена надёжность запуска и восстановления после обновления."
-    },
-    {
-      "version": "1.0.15",
-      "changelog": "Повышена надёжность обновления и восстановления Orbit.\nХод обновления и состояние подключения стали понятнее."
     }
   ]
 }
